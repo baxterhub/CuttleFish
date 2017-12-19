@@ -20,6 +20,12 @@ public class Action {
 		this.rawValue = rawValue;
 	}
 
+	/**
+	 * The raw value returned by the game engine, before being processed into an
+	 * expected value. This is only used for informational purposes.
+	 * 
+	 * @return the raw value
+	 */
 	public double rawValue() {
 		return rawValue;
 	}
